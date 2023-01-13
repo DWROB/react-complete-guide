@@ -8,8 +8,7 @@ const NewExpense = () => {
     <div className="new-expense">
       <ExpenseForm />
     </div>
-
-  )
+  );
 };
 
 export default NewExpense;
