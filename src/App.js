@@ -32,9 +32,9 @@ const App = () => {
   ];
 
   const addExpenseHandler = expense => {
-    console.log("in App.js\n\n\n\n");
+    console.log('in App.js');
     console.log(expense);
-  };
+  }
 
   // example of how React creates html elements from JSX without using JSX
   // create element takes three args, html tag, attributes (as an object),
@@ -48,7 +48,7 @@ const App = () => {
 
   return (
     <div>
-      <NewExpense onAddExpense={addExpenseHandler} />
+      <NewExpense onAddExpense={addExpenseHandler}/>
       <Expenses items={expenses} />
     </div>
   );
